@@ -53,18 +53,73 @@
 // method function wo jb hota hai jb wo object ka andr use hota hai
 
 
-var plan1={
-name:"basic",
-price:5000,
-page:10,
-space:100
+// var plan1={
+// name:"basic",
+// price:5000,
+// page:10,
+// space:100
+
+// }
+
+// function cal(){
+// var bestprice=plan1.price;
+// document.write(bestprice);
+
+// }
+
+// cal();
+
+var lis=document.getElementById("lis");
+function abc(){
+var va=document.getElementById("val");
+var list=document.createElement('li');
+var listtext=document.createTextNode(va.value);
+list.appendChild(listtext);
+lis.appendChild(list);
+
+
+// Deletebtn
+var delbtn=document.createElement('button');
+var delttxt=document.createTextNode('Delete');
+delbtn.appendChild(delttxt);
+delbtn.setAttribute("onclick","del(this)")
+list.appendChild(delbtn);
+
+// editbtn
+var editbtn=document.createElement('Button');
+var edittxt=document.createTextNode("Edit");
+editbtn.appendChild(edittxt);
+editbtn.setAttribute("onclick","edit(this)");
+list.appendChild(editbtn);
+
+
+
+
+
+
+
+
 
 }
 
-function cal(){
-var bestprice=plan1.price;
-document.write(bestprice);
 
+function del(d){
+
+    d.parentNode.remove();
+    
 }
 
-cal();
+
+
+function edit(e){
+    
+    var user=prompt("enter",e.parentNode.childNodes[0].nodeValue);
+    e.parentNode.childNodes[0].nodeValue=user;
+
+
+
+
+  
+    }
+
+    
