@@ -69,57 +69,71 @@
 
 // cal();
 
-var lis=document.getElementById("lis");
-function abc(){
-var va=document.getElementById("val");
-var list=document.createElement('li');
-var listtext=document.createTextNode(va.value);
-list.appendChild(listtext);
-lis.appendChild(list);
+// var lis=document.getElementById("lis");
+// function abc(){
+// var va=document.getElementById("val");
+// var list=document.createElement('li');
+// var listtext=document.createTextNode(va.value);
+// list.appendChild(listtext);
+// lis.appendChild(list);
 
 
-// Deletebtn
-var delbtn=document.createElement('button');
-var delttxt=document.createTextNode('Delete');
-delbtn.appendChild(delttxt);
-delbtn.setAttribute("onclick","del(this)")
-list.appendChild(delbtn);
+// // Deletebtn
+// var delbtn=document.createElement('button');
+// var delttxt=document.createTextNode('Delete');
+// delbtn.appendChild(delttxt);
+// delbtn.setAttribute("onclick","del(this)")
+// list.appendChild(delbtn);
 
-// editbtn
-var editbtn=document.createElement('Button');
-var edittxt=document.createTextNode("Edit");
-editbtn.appendChild(edittxt);
-editbtn.setAttribute("onclick","edit(this)");
-list.appendChild(editbtn);
-
-
-
+// // editbtn
+// var editbtn=document.createElement('Button');
+// var edittxt=document.createTextNode("Edit");
+// editbtn.appendChild(edittxt);
+// editbtn.setAttribute("onclick","edit(this)");
+// list.appendChild(editbtn);
 
 
 
 
 
 
-}
 
 
-function del(d){
 
-    d.parentNode.remove();
+// }
+
+
+// function del(d){
+
+//     d.parentNode.remove();
     
-}
+// }
 
 
 
-function edit(e){
+// function edit(e){
     
-    var user=prompt("enter",e.parentNode.childNodes[0].nodeValue);
-    e.parentNode.childNodes[0].nodeValue=user;
+//     var user=prompt("enter",e.parentNode.childNodes[0].nodeValue);
+//     e.parentNode.childNodes[0].nodeValue=user;
 
 
 
 
   
-    }
+//     }
 
     
+// function abc(){
+
+
+//     var d=document.getElementById('val').value;
+//   for(var i=0;i<d;i++){
+//       var para=document.getElementById("para");
+//     var btn=document.createElement("button");
+//     var btntext=document.createTextNode("button");
+//     btn.appendChild(btntext);
+//     para.appendChild(btn);
+//     console.log(btn);
+//   }
+// }
+
