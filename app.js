@@ -122,6 +122,24 @@
   
 //     }
 
+// var a=prompt("enter the word");
+// var chk="";
+// for(var i=a.length-1;i>=0;i--){
+// chk+=a[i];
+
+// }
+// if(a===chk){
+// document.write("yes");
+
+// }
+// else{
+// document.write("sorry");
+
+// }
+
+
+
+
     
 // function abc(){
 
@@ -159,4 +177,12 @@ name:"ali"
 
 ]
 
-document.write(student[1].name)
+// document.write(student[1].name);
+
+for(var i=0;i<student.length;i++){
+
+document.write(student[i].name)
+
+}
+
+
