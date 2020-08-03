@@ -137,3 +137,26 @@
 //   }
 // }
 
+// helptask object
+// var stu={
+// name:"fahad",
+// rollno:456,
+// class:"web & mobile"
+
+// }
+// document.write(stu.name)
+
+
+var student=[
+{
+name:"fahad"
+
+},
+{
+name:"ali"
+
+}
+
+]
+
+document.write(student[1].name)
