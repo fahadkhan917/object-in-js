@@ -185,18 +185,36 @@
 
 // }
 
-var stu={
-   name:"fahad",
-   rollno:456,
-  class:"web & mobile",
-  sub:["english","urdu","math"],
-  getresult:function(){
-  return "pass";
+// var stu={
+//    name:"fahad",
+//    rollno:456,
+//   class:"web & mobile",
+//   sub:["english","urdu","math"],
+//   exam1:70,
+//   exam2:80,
+//   getresult:function(){
+//   return stu.exam1+stu.exam2;
 
-  }
-}
-  document.write(stu.getresult())
+//   }
+// }
+//   document.write(stu.getresult())
    
+
+// function Stud(name,className,rollno,phone){
+
+//   this.name=name;
+//   this.className=className;
+//   this.rollno=rollno;
+//   this.phone=phone;
+
+// }
+
+// var student1=new Stud("fahad","web",456,0300);
+// var student2=new Stud("ahad","mobile",789,0321);
+
+// console.log(student1)
+// console.log(student2)
+
   //  delete stu.name;
   //  console.log(stu);
 
