@@ -165,24 +165,48 @@
 // document.write(stu.name)
 
 
-var student=[
-{
-name:"fahad"
+// var student=[
+// {
+// name:"fahad"
 
-},
-{
-name:"ali"
+// },
+// {
+// name:"ali"
 
-}
+// }
 
-]
+// ]
 
 // document.write(student[1].name);
 
-for(var i=0;i<student.length;i++){
+// for(var i=0;i<student.length;i++){
 
-document.write(student[i].name)
+// document.write(student[i].name)
 
+// }
+
+var stu={
+   name:"fahad",
+   rollno:456,
+  class:"web & mobile",
+  sub:["english","urdu","math"],
+  getresult:function(){
+  return "pass";
+
+  }
 }
+  document.write(stu.getresult())
+   
+  //  delete stu.name;
+  //  console.log(stu);
+
+  //   stu={
+  //   name:"asad",
+  //   rollno:456,
+  //  class:"web & mobile"
+   
+  //   }
+  //  stu.phone=123456;
+  //   document.write(stu.phone);
 
 
