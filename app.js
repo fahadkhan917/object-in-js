@@ -254,3 +254,28 @@
 //   document.write(students[i].name);
 
 // }
+
+// var stu={
+// name:"fahad",
+// id:12,
+// class:"web",
+// stud:["ali","asad"],
+// getres:function(){
+// document.write("hello");
+
+// }
+// }
+
+// stu.getres();
+
+function Abc(name,className,rollno,phone){
+
+  this.name=name;;
+  this.className=className;
+  this.rollno=rollno;
+  this.phone=phone;
+
+
+}
+
+var xyz=new Abc("fahad","web",789,456);
