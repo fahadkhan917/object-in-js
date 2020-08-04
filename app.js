@@ -228,3 +228,29 @@
   //   document.write(stu.phone);
 
 
+// var stu={
+// name:"fahad",
+// id:11,
+// phone:564
+
+
+// }
+
+// document.write(stu.name);
+
+// var students=[
+// {name:"asad",
+// id:15
+// },
+// {name:"umer",
+// id:16
+// }
+
+// ];
+
+// for(var i=0;i<students.length;i++){
+
+//   document.write(students[i].id);
+//   document.write(students[i].name);
+
+// }
