@@ -268,14 +268,16 @@
 
 // stu.getres();
 
-function Abc(name,className,rollno,phone){
+// function Abc(name,className,rollno,phone){
 
-  this.name=name;;
-  this.className=className;
-  this.rollno=rollno;
-  this.phone=phone;
+//   this.name=name;;
+//   this.className=className;
+//   this.rollno=rollno;
+//   this.phone=phone;
 
 
-}
+// }
 
-var xyz=new Abc("fahad","web",789,456);
+// var xyz=new Abc("fahad","web",789,456);
+
+
